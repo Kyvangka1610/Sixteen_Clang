@@ -156,7 +156,7 @@ if(LLVM_ENABLE_ZLIB)
   find_package(ZLIB)
 endif()
 
-set(LLVM_ENABLE_LIBXML2 1)
+set(LLVM_ENABLE_LIBXML2 )
 if(LLVM_ENABLE_LIBXML2)
   find_package(LibXml2)
 endif()
